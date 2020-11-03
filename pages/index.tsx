@@ -1,7 +1,12 @@
 /** @format */
+import Header from '../components/Header';
 
 const Index = () => {
-	return <div> hallo baby am cris and lol </div>;
+	return (
+		<>
+			<Header />
+		</>
+	);
 };
 
 export default Index;
